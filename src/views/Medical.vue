@@ -80,7 +80,7 @@
     </ion-page>
 </template>
 
-<script>
+<script lang="js">
 export default {
     name: 'MedicalVue',
     data() {

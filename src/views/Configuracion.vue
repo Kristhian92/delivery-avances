@@ -43,7 +43,7 @@
                     <ion-label position="floating">Contraseña</ion-label>
                     <ion-input v-model="password" type="password" :value="idNumber" required></ion-input>
                 </ion-item>
-                <ion-button href="/professional" expand="full" color="secondary">
+                <ion-button href="/patient" expand="full" color="secondary">
                     Actualizar Información
                 </ion-button>
             </ion-list>

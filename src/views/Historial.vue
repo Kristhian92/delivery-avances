@@ -73,7 +73,7 @@
                             <ion-label>Recomendaciones:</ion-label>
                             <ion-note>{{ historiaMedica.recomendaciones }}</ion-note>
                         </ion-item>
-                        <ion-button href="/oatient" expand="full" color="secondary">Marcar Asistida</ion-button>
+                        <ion-button href="/patient" expand="full" color="secondary">Marcar Asistida</ion-button>
                     </ion-card-content>
                 </ion-card>
             </ion-content>
@@ -92,7 +92,7 @@ export default {
                     edad: 30,
                     sexo: "Femenino",
                     nroIdentificacion: "123456789",
-                    ubicacion: "Ciudad X"
+                    ubicacion: "Bucaramanga"
                 },
                 fechaHora: "2023-01-01T10:30:00",
                 consecutivo: "CMH-2023-001",
