@@ -1,0 +1,7 @@
+{
+  "name": "delivery_avances",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
