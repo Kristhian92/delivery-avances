@@ -8,12 +8,16 @@
 
         <ion-content class="ion-padding">
             <ion-list>
-                <ion-item @click="irAHistorial">
+                <ion-item href="/medical">
                     <ion-label>Historial</ion-label>
                     <ion-icon slot="end" :icon="arrowForward"></ion-icon>
                 </ion-item>
+                <ion-item href="/newmedical">
+                        <ion-label>Nueva Historia</ion-label>
+                        <ion-icon slot="end" :icon="arrowForward"></ion-icon>
+                    </ion-item>
 
-                <ion-item @click="irAConfiguracion">
+                <ion-item href="/configuration">
                     <ion-label>Configuración</ion-label>
                     <ion-icon slot="end" :icon="arrowForward"></ion-icon>
                 </ion-item>
@@ -35,14 +39,6 @@ export default {
         return {
             arrowForward,
         };
-    },
-    methods: {
-        irAHistorial() {
-            this.$router.push('/historial'); 
-        },
-        irAConfiguracion() {
-            this.$router.push('/configuracion');
-        },
     },
 };
 </script>

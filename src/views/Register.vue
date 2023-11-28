@@ -14,7 +14,7 @@
         </ion-item>
 
         <ion-item>
-          <ion-label position="floating">Nombre *</ion-label>
+          <ion-label position="floating">Nombres *</ion-label>
           <ion-input v-model="firstName" required></ion-input>
         </ion-item>
 
